@@ -54,8 +54,7 @@ $kayit1=mysql_fetch_array($sorgu1);
 <!DOCTYPE html>
 <html lang="en">
 	
-<!-- Mirrored from html.templines.com/margherita/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 May 2016 15:47:45 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
 <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
@@ -366,7 +365,6 @@ while($kayit=mysql_fetch_array($sorgu)){ ?>
 
 	</body>
 
-<!-- Mirrored from html.templines.com/margherita/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 May 2016 15:47:56 GMT -->
 </html>
 
 <?php } else { header("location:index.php");} ?>
